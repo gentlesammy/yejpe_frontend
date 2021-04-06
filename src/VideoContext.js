@@ -4,7 +4,7 @@ import Peer from "simple-peer";
 
 const videoContext = createContext();
 
-const socket = io("http://localhost:8000/"); 
+const socket = io("https://yejpe.herokuapp.com/"); 
 const ContextProvider = ({children}) => {
     const [stream, setStream] = useState(null);
     const myVideo = useRef();
