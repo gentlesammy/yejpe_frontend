@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 
 import Options from "./components/Options";
@@ -11,10 +10,11 @@ function App() {
         <h1>YEJPE</h1>
 
         {/* components */}
+        
+        <Video/>
         <Options>
            <Notifications/>
          </Options>
-        <Video/>
 
       </div>
     </div>

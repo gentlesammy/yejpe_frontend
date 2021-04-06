@@ -1,0 +1,51 @@
+.options_col{
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    max-width: 600px;
+    min-width: 320px;
+    display: flex;
+    justify-content: space-between;
+    background: white;
+    padding: 20px 5px;
+
+}
+.options_col1, .options_col2{
+     display: flex;
+     flex-direction: column;
+}
+.options_col1 input, .options_col2 input{
+    border: none;
+    outline:none;
+    margin: 10px 0px;
+    border-bottom: 1px solid  #06042E;
+    padding-bottom: 5px;
+}
+
+.options_col1 button, .options_col2 button{
+    font: 20px;
+    background: black;
+    color: white;
+    cursor: pointer;
+    padding: 20px 0px;
+    border: none;
+    margin: 2px;
+    transition: 0.5s
+}
+.options_col1 button:hover, .options_col2 button:hover{
+    background:  #06042E;
+}
+
+
+.copy_but .copied button{
+    color:  #06042E !important;
+    background:  lightblue !important;
+}
+
+.endCall button{
+    background: red;
+}
+.options_col1 svg, .options_col2 svg{
+    width: 15px;
+    padding-right: 2px;
+}

@@ -1,0 +1,30 @@
+.noti_info{
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+    width: 70%;
+    max-width: 600px;
+    min-width: 320px;
+    background: skyblue;
+    padding: 10px;
+    position: absolute;
+    top: 40vh;
+    z-index: 100;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.noti_info button{
+    font: 20px;
+    background: black;
+    color: white;
+    cursor: pointer;
+    padding: 20px 10px;
+    border: none;
+    margin: 2px;
+    transition: 0.5s
+}
+.noti_info button:hover{
+    background:  #06042E;
+}
